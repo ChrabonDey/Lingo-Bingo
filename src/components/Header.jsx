@@ -47,7 +47,7 @@ const Header = () => {
               {user && <NavLink to={'/profile'}>My Profile</NavLink>}
             </ul>
           </div>
-          <a className="text-xl font-extrabold">Lingo Bingo</a>
+          <a className="text-2xl font-bold">Lingo <span className="bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent">Bingo</span></a>
         </div>
         <div className="navbar-center hidden lg:flex gap-4">
           <NavLink to={'/'}>Home</NavLink>
