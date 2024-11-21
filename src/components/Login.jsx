@@ -88,7 +88,7 @@ const Login = () => {
 
           <div className="text-center">
             <p className="text-gray-500">
-              Don't have an account?{" "}
+              Do not have an account?{" "}
               <NavLink
                 to="/register"
                 className="text-blue-500 underline font-bold"
