@@ -13,7 +13,7 @@ const Footer = () => {
                             <h4 className="text-xl font-bold text-white mb-4">Contact Us</h4>
                             <ul className="space-y-2">
                                 <li><strong>Email:</strong> contact@yourcompany.com</li>
-                                <li><strong>Phone:</strong> +1 234 567 890</li>
+                                <li><strong>Phone:</strong> +96349505858</li>
                                 <li><strong>Address:</strong> 123 Street Name, City, Country</li>
                             </ul>
                         </div>
