@@ -22,7 +22,7 @@ const Login = () => {
       await handleLogin(email, password);
       navigate(location.state?.from || "/");
     } catch (err) {
-      console.error("Error during login:", err.message);
+      
       setError(err.message || "An unknown error occurred");
     } finally {
       setIsLoading(false);

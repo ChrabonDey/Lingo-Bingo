@@ -27,7 +27,7 @@ const ForgotPassword = () => {
       alert("Password reset email sent! Redirecting to Gmail...");
       window.location.href = "https://mail.google.com";
     } catch (error) {
-      console.error("Error sending reset email:", error);
+      
       alert(`Failed to send reset email: ${error.message}`);
     }
   };

@@ -15,7 +15,7 @@ const UpdateProfile = () => {
       alert("Profile updated successfully!");
       navigate("/profile");
     } catch (error) {
-      console.error("Error updating profile:", error.message);
+      
       alert("Failed to update profile. Please try again.");
     }
   };

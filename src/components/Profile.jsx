@@ -7,7 +7,7 @@ import { authContext } from "../Authprovider/AuthProvider";
 const Profile = () => {
   const { user } = useContext(authContext);
   const navigate = useNavigate();
-  console.log(user)
+  
 
   const handleUpdateProfile = () => {
     navigate("/update");

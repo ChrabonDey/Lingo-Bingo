@@ -27,12 +27,12 @@ const Register = () => {
 
     handleRegister(email, password)
       .then(() => {
-        console.log("User registered successfully"); 
+         
       }).then((res) => {
         navigate(location.state?.from || "/");
       })
       .catch((err) => {
-        console.error("Error during login:", err.message);
+        
         setError(err.message || "An unknown error occurred");
       });
 
@@ -45,7 +45,7 @@ const Register = () => {
         navigate(location.state?.from || "/");
       })
       .catch((err) => {
-        console.error("Error during Google login:", err.message); 
+        
         setError(err.message || "Google login failed. Please try again.");
       });
     }

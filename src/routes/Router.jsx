@@ -59,7 +59,7 @@ const Router=createBrowserRouter([
                     const res=await fetch("/language.json")
                     const data=await res.json()
                     const singleData=data.filter(d=>d.lesson_no==params.lesson_no)
-                    console.log(singleData)
+                    
                     return singleData
                 }
             },
