@@ -13,7 +13,7 @@ const NotFound = () => {
       <div className="text-center">
         <div className="flex justify-center items-center mb-4">
           <h1 className="text-6xl font-bold text-red-500">4</h1>
-          <img src={img} alt="Not Found" className="w-16 h-16 mx-2" />
+          <img src={img} alt="Not Found" className="w-16 h-16 mx-2 animate__animated animate__wobble animate__slower  animate__slow  animate__infinite" />
           <h1 className="text-6xl font-bold text-red-500">4</h1>
         </div>
         <p className="text-2xl text-gray-800 mb-8">

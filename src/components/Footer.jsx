@@ -59,7 +59,7 @@ const Footer = () => {
                        
                         <div className="md:col-span-3 mt-8 md:mt-0 text-center">
                             <div className="flex justify-center mb-4">
-                                <img src={img} alt="Your Company Logo" className="w-32 h-auto" />
+                                <img src={img} alt="Your Company Logo" className="w-32 h-auto animate__animated animate__wobble animate__slower  animate__slow  animate__infinite" />
                             </div>
                             <p className="text-sm text-gray-400">
                                 &copy; {new Date().getFullYear()} Your Company. All rights reserved.

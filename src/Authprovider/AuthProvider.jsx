@@ -24,11 +24,12 @@ const AuthProvider = ({routes}) => {
     const handleGoogleLogin=()=>{
        return signInWithPopup(auth,googleProvider);
     }
-    const manageProfile=()=>{
-        updateProfile(auth.currentUser,{
-            displayName:name,photoURL:photo
-        })
-    }
+    const manageProfile = (name, photo) => {
+      return updateProfile(auth.currentUser, {
+          displayName: name,
+          photoURL: photo,
+      });
+  };
     const authInfo={
         handleRegister,
         handleLogin,

@@ -11,6 +11,7 @@ import Register from "../components/Register";
 import PrivateRoute from "../components/PrivateRoute";
 import ForgotPassword from "../components/ForgotPassword";
 import NotFound from "../NotFound";
+import UpdateProfile from "../components/UpdateProfile";
 
 const Router=createBrowserRouter([
     {
@@ -34,6 +35,12 @@ const Router=createBrowserRouter([
                 path:"/profile",
                 element:<PrivateRoute>
                     <Profile></Profile>
+                </PrivateRoute>
+            },
+            {
+                path:"/update",
+                element:<PrivateRoute>
+                    <UpdateProfile></UpdateProfile>
                 </PrivateRoute>
             },
             {

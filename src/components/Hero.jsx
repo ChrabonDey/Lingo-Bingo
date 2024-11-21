@@ -10,7 +10,7 @@ const Hero = () => {
            
             <img
               src={img}
-              className="max-w-sm rounded-full  shadow-2xl"
+              className="max-w-sm rounded-full  shadow-2xl animate__animated animate__zoomInDown animate__slow  animate__slow"
               alt="Preview"
             />
           </div>
