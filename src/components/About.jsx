@@ -15,9 +15,9 @@ const About = () => {
           Whether your a beginner or an advanced learner, our app empowers you to enhance your skills with ease.
         </p>
 
-        {/* Features Section */}
+        
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          {/* Left Section */}
+          
           <div>
             <h3 className="text-5xl font-bold text-blue-700 mb-4">What We Offer</h3>
             <ul className="space-y-4">
@@ -48,7 +48,7 @@ const About = () => {
             </ul>
           </div>
 
-          {/* Right Section */}
+         
           <div className="relative">
             <img
               src={img}
