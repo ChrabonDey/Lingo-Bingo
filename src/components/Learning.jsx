@@ -17,7 +17,7 @@ const Learning = () => {
         <p className="text-lg mt-2">Explore lessons to start your learning journey!</p>
       </div>
         <div>
-            <img src={img} alt=""  className="w-36 h-36 mx-auto"/>
+            <img src={img} alt=""  className="w-36 h-36 mx-auto animate__animated animate__wobble animate__slower  animate__slow  animate__infinite"/>
         </div>
       
       <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">

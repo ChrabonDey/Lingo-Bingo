@@ -8,7 +8,7 @@ const Lesson = () => {
   const navigate = useNavigate();
   const [selectedWord, setSelectedWord] = useState(null);
 
-  // Function to speak the word
+  
   const speakWord = (word, language = "en-US") => {
     const utterance = new SpeechSynthesisUtterance(word);
 
