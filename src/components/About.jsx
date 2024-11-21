@@ -23,25 +23,25 @@ const About = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-blue-500 text-2xl mr-4">✓</span>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 font-bold leading-relaxed">
                    Learn vocabulary with detailed pronunciation guides and examples.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-500 text-2xl mr-4">✓</span>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 font-bold leading-relaxed">
                    Master new words through fun, interactive cards.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-500 text-2xl mr-4">✓</span>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 font-bold leading-relaxed">
                    Access lessons in multiple languages.
                 </p>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-500 text-2xl mr-4">✓</span>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 font-bold leading-relaxed">
                    Log in safely through Firebase authentication.
                 </p>
               </li>
