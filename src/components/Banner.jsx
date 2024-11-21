@@ -16,7 +16,7 @@ const Banner = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex items-end">
             <div className="text-white p-6">
-              <h1 className="text-3xl font-bold mb-2">Welcome to Lingo Bingo!</h1>
+              <h1 className="text-3xl font-extrabold mb-2">Welcome to Lingo Bingo!</h1>
               <p className="text-lg">Learn languages in the most exciting way.</p>
             </div>
           </div>
