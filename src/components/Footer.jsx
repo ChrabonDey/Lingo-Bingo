@@ -39,7 +39,7 @@ const Footer = () => {
 
                        
                         <div>
-                            <h6 className="text-xl font-bold text-white mb-4">Newsletter</h6>
+                            <h6 className="text-xl font-bold text-white mb-4">Feedback</h6>
                             <form>
                                 <fieldset className="form-control">
                                     <label className="label">
