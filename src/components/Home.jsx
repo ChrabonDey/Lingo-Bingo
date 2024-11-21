@@ -7,7 +7,7 @@ import Success from "./Success";
 const Home = () => {
     return (
         <div>
-            <section className="mb-11">
+            <section className="">
                 <Hero></Hero>
             </section>
            <Banner></Banner>
