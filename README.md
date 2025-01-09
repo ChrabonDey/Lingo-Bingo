@@ -15,7 +15,7 @@ The entire application is in English, but the vocabulary database is exclusively
 ---
 
 ## 🚀 **Live Demo**  
-🌐 **[Visit Lingo Bingo Live](https://your-live-link.com)**  
+🌐 **[Visit Lingo Bingo Live](https://lingo-bingo-40909.web.app/)**  
 
 ---
 
@@ -176,9 +176,8 @@ src/
 
 ---
 
-## 🖇 **Links**  
-- **GitHub Repository**: [Lingo Bingo Repo](https://github.com/your-repo)  
-- **Live Demo**: [Lingo Bingo Live](https://your-live-link.com)  
+## 🖇 **Links**   
+- **Live Demo**: [Lingo Bingo Live](https://lingo-bingo-40909.web.app/)  
 
 ---
 
